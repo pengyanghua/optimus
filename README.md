@@ -28,5 +28,9 @@ MXNet GPU container (if the server has NVIDIA GPUs): see [images](images/)
 The PS load balance algorithm and code are in [mxnet](mxnet/). The scheduling code is in [scheduler](scheduler/). 
 Before running [experimentor.py](scheduler/experimentor.py), make sure hyper-parameters in [params.py](scheduler/params.py) are correct.
 
+Please use the [images](images/) for running, or you can build your own by copying the [scripts](https://github.com/pengyanghua/optimus/tree/master/images/gpu/scripts) into your image. These scripts are for parsing training logs and collecting training speed, loss, accuracy etc. 
+
+Most training examples (e.g., image classification) are from MXNet official [examples](https://github.com/apache/incubator-mxnet/tree/master/example) and you can find how to run these examples (e.g., preparing the training data) there. The machine translation example is from [sockeye](https://github.com/awslabs/sockeye).
+
 ## More
 Read the <a href="https://dl.acm.org/citation.cfm?id=3190517"> Optimus paper </a>  and <a href="https://blog.acolyer.org/2018/06/12/optimus-an-efficient-dynamic-resource-scheduler-for-deep-learning-clusters/">the morning report </a> for details.
