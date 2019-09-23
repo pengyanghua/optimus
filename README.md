@@ -30,7 +30,9 @@ Before running [experimentor.py](scheduler/experimentor.py), make sure hyper-par
 
 Please use the [images](images/) for running, or you can build your own by copying the [scripts](https://github.com/pengyanghua/optimus/tree/master/images/gpu/scripts) into your image. These scripts are for parsing training logs and collecting training speed, loss, accuracy etc. 
 
-Most training examples (e.g., image classification) are from MXNet official [examples](https://github.com/apache/incubator-mxnet/tree/master/example) and you can find how to run these examples (e.g., preparing the training data) there. The machine translation example is from [sockeye](https://github.com/awslabs/sockeye).
+All training examples (e.g., image classification) in the paper are from the open source community. Most are from MXNet official [examples](https://github.com/apache/incubator-mxnet/tree/master/example) and you can find how to run these examples (e.g., preparing the training data and starting training) there. The machine translation example is from [sockeye](https://github.com/awslabs/sockeye).
 
 ## More
 Read the <a href="https://dl.acm.org/citation.cfm?id=3190517"> Optimus paper </a>  and <a href="https://blog.acolyer.org/2018/06/12/optimus-an-efficient-dynamic-resource-scheduler-for-deep-learning-clusters/">the morning report </a> for details.
+
+Contact yhpeng@cs.hku.hk if you have any questions.
