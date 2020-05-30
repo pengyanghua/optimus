@@ -34,7 +34,7 @@ Please use the [images](images/) for running, or you can build your own by copyi
 
 All training examples (e.g., image classification) in the paper are from the open source community. Most are from MXNet official [examples](https://github.com/apache/incubator-mxnet/tree/master/example) and you can find how to run these examples (e.g., preparing the training data and starting training) there. The machine translation example is from [sockeye](https://github.com/awslabs/sockeye).
 
-This is a prototype, so  and it may take some time to make it work on your testbed. Before running the code, please read the scheduler code first to understand how Optimus interacts with k8s. That may save you a lot of time if encounting any bugs.
+This is a prototype, so it may take some time to make it work on your testbed. Before running the code, please read the scheduler code first to understand how Optimus interacts with k8s. That may save you a lot of time if encounting any bugs.
 
 ## More
 Read the <a href="https://dl.acm.org/citation.cfm?id=3190517"> Optimus paper </a>  and <a href="https://blog.acolyer.org/2018/06/12/optimus-an-efficient-dynamic-resource-scheduler-for-deep-learning-clusters/">the morning report </a> for details.
