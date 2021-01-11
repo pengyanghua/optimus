@@ -1,6 +1,6 @@
 Steps to bring up Kubernetes 1.7 on Ubuntu 14.04:
 
-(1) configure ubuntu/config-default.sh
+(1) configure ubuntu/config-default.sh (in directory kubernetes/cluster)
 
 (2) modify the version of flannel, etcd and kubernetes in file download-release.sh
 
